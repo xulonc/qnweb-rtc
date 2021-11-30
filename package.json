@@ -1,0 +1,25 @@
+{
+  "name": "qnweb-rtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "qiniu": "^7.4.0",
+    "qnweb-rtc": "^4.0.2",
+    "vconsole": "^3.9.5"
+  }
+}
